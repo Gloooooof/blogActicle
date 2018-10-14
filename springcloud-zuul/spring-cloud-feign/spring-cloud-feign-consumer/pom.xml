@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.gupao</groupId>
-	<artifactId>spring-cloud-feing-provider</artifactId>
+	<artifactId>spring-cloud-feign-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-cloud-feing-provider</name>
+	<name>spring-cloud-feign-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -28,10 +28,6 @@
 			<groupId>com.gupao</groupId>
 			<artifactId>spring-cloud-feign-api</artifactId>
 			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 		</dependency>
 	</dependencies>
 
